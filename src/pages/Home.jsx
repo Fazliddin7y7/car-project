@@ -37,8 +37,15 @@ const CarCard1 = styled.div`
 
 const CarCard2 = styled.div`
 color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 40px;
 
 `;
+
+ 
+
 const CarCard3 = styled.div`
 width: 30%;
 height: 70%;
@@ -47,6 +54,13 @@ border-radius: 20px;
 
 `;
 
+const CardText = styled.h1`
+font-size: 60px;
+`;
+
+const Button1 = styled.div`
+
+`;
 
 export default function Home() {
     return (
@@ -57,7 +71,13 @@ export default function Home() {
 
             <CarCard1>
                 <CarCard2>
-                    <h1>Experience the road like never before</h1>
+                    <CardText>Experience the road <br /> like never before</ CardText>
+                    <p>
+                    <p>Aliquam adipiscing velit semper morbi. Purus non eu </p> 
+                    <p>cursus porttitor tristique et gravida. Quis nunc interdum </p> 
+                    <p>gravida ullamcorper</p>
+                    </p>
+                    <Button1>View all cars</Button1>
                 </CarCard2>
 
                 <CarCard3>
