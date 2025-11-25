@@ -88,6 +88,7 @@ export default function Home() {
             </CarCard1>
 
         </HomeContainer>
+        <Footer />
 
         </>
 
