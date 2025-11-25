@@ -39,7 +39,7 @@ const cars = [
     name: "Porsche",
     type: "SUV",
     price: 50,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxfoXsXJL1_qFbkfV87A0Bvhx0rkl-tS049w&s",
+    img: "https://d2qldpouxvc097.cloudfront.net/image-by-path?bucket=a5-gallery-serverless-prod-chromebucket-1iz9ffi08lwxm&key=429129%2Ffront34%2Flg",
   },
 ];
 
