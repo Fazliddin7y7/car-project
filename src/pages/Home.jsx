@@ -113,7 +113,7 @@ const InputCtn = styled.div`
   flex-direction: column;
   width: 80%;
   height: 70%;
-  gap: 15px;
+  gap: 14px;
 
   input {
     width: 100%;
@@ -204,8 +204,10 @@ export default function Home() {
               </InputCtn>
           </CarCard3>
         </CarCard1>
-
+       
         </HomeContainer>
+        <AfterCarDiv />
+        <Card />
         <Footer />
 
              
