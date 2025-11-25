@@ -19,9 +19,9 @@ const HomeContainer = styled.div`
 `;
 
 const CarCard1 = styled.div`
-  width: 1269px;
+  width: 1296px;
   height: 660px;
-  background-color: #6e00f5;
+  background-color: #5937E0;
   border-radius: 40px;
   display: flex;
   justify-content: space-evenly;
@@ -188,10 +188,7 @@ export default function Home() {
                 <option>Electric</option>
               </SelectBox>
 
-        </HomeContainer>
-        <Footer />
-
-              <DateBox>
+               <DateBox>
                 <option>Return date</option>
                 <option>Sedan</option>
                 <option>SUV</option>
@@ -200,10 +197,17 @@ export default function Home() {
               </DateBox>
 
               <button>Book now</button>
-            </InputCtn>
+
+              </InputCtn>
           </CarCard3>
         </CarCard1>
-      </HomeContainer>
+
+        </HomeContainer>
+        <Footer />
+
+             
+           
+      
     </>
   );
 }
