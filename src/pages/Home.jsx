@@ -4,11 +4,13 @@ import styled from "styled-components";
 //components
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import AfterCarDiv from "../components/AfterCarDiv";
+import Card from "../components/Card";
 
 //images
 
 const HomeContainer = styled.div`
-  width: 1440px;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -152,11 +154,12 @@ export default function Home() {
             <CardText>
               Experience the road <br /> like never before
             </CardText>
-            <p>
-              <p>Aliquam adipiscing velit semper morbi. Purus non eu </p>
-              <p>cursus porttitor tristique et gravida. Quis nunc interdum </p>
-              <p>gravida ullamcorper</p>
-            </p>
+          <p>
+  <p>Aliquam adipiscing velit semper morbi. Purus non eu</p>
+  <p>cursus porttitor tristique et gravida. Quis nunc interdum</p>
+  <p>gravida ullamcorper</p>
+</p>
+
             <Button1>View all cars</Button1>
           </CarCard2>
 
