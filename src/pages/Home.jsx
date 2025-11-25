@@ -4,7 +4,7 @@ import styled from "styled-components";
 //components
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Card from "../components/Card";
+import AfterCarDiv from "../components/AfterCarDiv";
 
 //images
 
@@ -211,9 +211,9 @@ export default function Home() {
           </CarCard3>
         </CarCard1>
 
-      
-            </HomeContainer>
-            <Card />
+        <AfterCarDiv />
+
+      </HomeContainer>
     </>
   );
 }
