@@ -24,7 +24,7 @@ const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 100px;
 `;
 
 const BigContainer = styled.div`
@@ -193,7 +193,7 @@ const FooterWrapper = styled.footer`
 `;
 
 const FooterContent = styled.div`
-  width: 1440px;
+  width: 1400px;
   display: flex;
   justify-content: space-between;
   color: #000000;
@@ -330,6 +330,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 `;
   
 
@@ -445,7 +446,10 @@ export default function Footer() {
 
           <Column2>
 
-          <MailIcon src={MailImg} /> nobody@gmail.com
+          <ContactRow>
+    <MailIcon src={MailImg} />
+    <span>nobody@gmail.com</span>
+  </ContactRow>
             <Title>Vehicles</Title>
             <List>
               <Item>Sedan</Item>
@@ -457,7 +461,10 @@ export default function Footer() {
           </Column2>
 
           <Column3>
-            <PhoneIcon src={PhoneImg} /> +998987654321
+            <ContactRow>
+    <PhoneIcon src={PhoneImg} />
+    <span>+998987654321</span>
+  </ContactRow>
             <Title>Download App</Title>
 
            
