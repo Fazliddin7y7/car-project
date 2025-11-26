@@ -1,5 +1,10 @@
 const ROUTES = {
     HOME: "/",
+    VEHICLES: "/vehicles",
+    ABOUT: "/about",
+    CONTACT: "/contact"
+
+
     
 
   };

@@ -4,6 +4,10 @@ import ROUTES from "./routes";
 // Import Pages
 
 import Home from "../pages/Home";
+import Vehicles from "../pages/Vehicles";
+import About from "../pages/AboutUs";
+import Contact from "../pages/Contact";
+
 
 
 
@@ -11,7 +15,13 @@ import Home from "../pages/Home";
 const MainRoutes = () => {
   return (
     <Routes>
-     <Route path={ROUTES.HOME} element={<Home />} />
+     <Route path={ROUTES.HOME} element={<Home />} />;
+     <Route path={ROUTES.VEHICLES} element={<Vehicles />} />;
+     <Route path={ROUTES.ABOUT} element={<About />} />
+     <Route path={ROUTES.CONTACT} element={<Contact />} />
+
+
+
 
       
 

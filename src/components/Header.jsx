@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoCarSport } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import ROUTES from "../routes/routes";
 export default function Header() {
   return (
     <Wrapper>
@@ -15,11 +17,11 @@ export default function Header() {
         </LogoArea>
 
         <Nav>
-          <NavItem href="#">Home</NavItem>
-          <NavItem href="#" >Vehicles</NavItem>
-          <NavItem href="#">Details</NavItem>
-          <NavItem href="#">About Us</NavItem>
-          <NavItem href="#">Contact Us</NavItem>
+          <NavItem to={ROUTES.HOME}>Home</NavItem>
+          <NavItem to={ROUTES.VEHICLES}>Vehicles</NavItem>
+          <NavItem to="/details">Details</NavItem>
+          <NavItem to={ROUTES.ABOUT}>About Us</NavItem>
+          <NavItem to={ROUTES.CONTACT}>Contact Us</NavItem>
         </Nav>
 
       
@@ -83,7 +85,7 @@ const Nav = styled.nav`
   }
 `;
 
-const NavItem = styled.a`
+const NavItem = styled(Link)`
   text-decoration: none;
   color: #000;
   font-size: 18px;
